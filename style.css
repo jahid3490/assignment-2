@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg.png);
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-top: 15px;
+    display: flex;
+
+}
+
+.img-icon{
+width: 50%;
+height: 60px;
+padding-right: 10px;
+padding-bottom: 10px;
+
+}
+
+
+.navber{
+    display: flex;
+justify-content: space-between;
+}
+.menu a{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.item{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    padding-top: 18px;
+    font-size: 20px;
+
+    
+}
+.item li a {
+    text-decoration: none;
+    
+}
+.button{
+    font-size: 20px;
+    padding-top: 18px;
+    padding-right: 100px;
+    
+  
+
+}
+.btn-primary{
+    font-size: 50px;
+  color: white;
+  font-size: 1.3em;
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+.icon{
+    width: 70%;
+    height: 70%;
+    padding-left: 70px;
+}
+.color-1 a {
+    color: orange;
+}
+.color-2 a{
+    color: skyblue;
+}
+.color-3 a {
+    color: #05D4DF;
+}
+.color-4 a{
+    color:#5D58EF ;
+}
+
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.text-style h1{
+    width: 900px;
+    height: 183;
+   font-size: 70px;
+   letter-spacing: 3px;
+   font-weight: 600;
+   padding-right: 70px;
+}
+ .main-title{
+  font-size: 70px;
+ }
+ .text-style h6{
+  
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-top: 10px;
+ }
+ .banner-img img{
+widt: 70%;
+height: 80%;
+
+ }
+
+
+ .color-design{
+    color:orange ;
+ }
+ .color-design2{
+    color: skyblue;
+ }
+ .button-2 button{
+    color: white;
+  font-size: 1.3em;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  
+ }
+ .button i{
+    font-size: 20px;
+    padding-left: 10px;
+
+ }
+ .button, .btn-primary a {
+
+    text-decoration: none;
+ }
+
+
+ /* responsive */
+
+ @media (min-width: 576px) {
+
+    .button i{
+display: none;
+    }
+    
+    
+ }
+ @media (max-width:576px) {
+    .SCHOOL, .menu, .item hr{
+        display: none;
+    }
+    .navber .togle-btn  {
+        display: block;
+    }
+ }
+
+ @media (min-width: 576px) {
+    hr{
+        display: none;
+    }
+ }
