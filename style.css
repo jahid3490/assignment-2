@@ -82,6 +82,25 @@ justify-content: space-between;
     color:#5D58EF ;
 }
  
+
+
+.top-img img{
+    max-width: 600px;
+   align-items: center;
+   justify-content: center;
+   padding-left: 90px;
+}
+
+
+@media (min-width: 767px) {
+    .top-img img { 
+     display: none;
+
+  }
+}
+
+
+
 @media (max-width: 768px) {
     .btn-primary, .logo h3{
      display: none;
@@ -173,7 +192,7 @@ justify-content: space-between;
 
 
 .Curriculum{
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 2px;
     font-weight: 300;
     text-align: center;
@@ -254,7 +273,7 @@ padding-top: 30px;
   
       padding-top: 100px;
       padding-bottom: 100px;
-      font-size: 40px;
+      font-size: 30px;
       letter-spacing: 2px;
       font-weight: 400;
   
@@ -303,6 +322,17 @@ padding-top: 30px;
       font-size: 20px;
     }
   }
+
+
+
+  @media (max-width: 568px) {
+    .navigation  {
+     display: none;
+
+  }
+}
+
+
 
 
 
@@ -424,7 +454,7 @@ padding-top: 30px;
     }
  
     @media (max-width: 768px) {
-        .main-card  {
+        .main-card {
          display: none;
     
       }
@@ -465,12 +495,6 @@ display: none;
     }
     .navber .togle-btn  {
         display: block;
-    }
- }
-
- @media (min-width: 576px) {
-    hr{
-        display: none;
     }
  }
 
