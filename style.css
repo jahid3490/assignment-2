@@ -215,6 +215,7 @@ justify-content: space-between;
     background-color: #DEF5FF;}
     
 .card-1 img{
+  
   align-items: center;
   justify-content: center;
   padding-left: 
@@ -226,6 +227,7 @@ justify-content: space-between;
   align-items: center;
   justify-content: center;
   padding-left: 
+
   70px;
 }
 
@@ -241,6 +243,7 @@ justify-content: space-between;
 
 .card-1,.card-content{
   padding-left: 30px;
+  padding-top: 10px;
 
 }
 
