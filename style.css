@@ -206,15 +206,48 @@ justify-content: space-between;
     margin-top: 100px;
 }
 .card-1{
+
     width: 325px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: opx 2px 4px rgba( 0, 0, oe, 0.2) ;
     margin: 20px;
-    background-color: #DEF5FF;
+    background-color: #DEF5FF;}
     
+.card-1 img{
+  align-items: center;
+  justify-content: center;
+  padding-left: 
+  70px;
+}
+
+
+.card-2 img{
+  align-items: center;
+  justify-content: center;
+  padding-left: 
+  70px;
+}
+
+
+.card-3 img{
+  align-items: center;
+  justify-content: center;
+  padding-left: 
+  70px;
+}
+
+
+
+.card-1,.card-content{
+  padding-left: 30px;
 
 }
+
+
+
+
+
 .card-2{
     width: 325px;
     border-radius: 8px;
